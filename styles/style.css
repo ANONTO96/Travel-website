@@ -38,6 +38,7 @@ color: rgb(255, 255, 255);
 background-color: rgb(255, 84, 0);
 border: 1px solid rgb(255, 84, 0);
 border-radius: 8px;
+font-weight: 800;
 
 }
 /* navbar section */
@@ -107,5 +108,30 @@ border-radius: 8px;
 border: none;
 cursor: pointer;
 font-size: 1rem;
+}
+/* our popular tours section */
+.popular-section{
+display: flex;
+justify-content: space-between;
+}
+.text-content{
+    width:50%;
+height: 750px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content:space-evenly;
+}
+.text-content p, li{
+    line-height: 24px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+.text-content h3, p, li{
+    text-align: left;
+}
+.image img{
+    width: 750px;
+    height: 750px ;
 }
 

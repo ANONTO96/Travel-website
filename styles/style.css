@@ -213,3 +213,9 @@ height: 300px;
     display: flex;
     justify-content: center;
 }
+/* some details */
+.some-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
